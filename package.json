@@ -1,0 +1,20 @@
+{
+  "name": "raisingchildren",
+  "version": "1.0.0",
+  "description": "a game to raise a child using 4 different parenting styles",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pn15644/RCwB.git"
+  },
+  "author": "Phan Nguyen (pn15644@my.bristol.ac.uk)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pn15644/RCwB/issues"
+  },
+  "homepage": "https://github.com/pn15644/RCwB#readme"
+}
