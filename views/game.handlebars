@@ -1,13 +1,14 @@
-<h2> Scenario: </h2>
+<h2 id="scenario"> Scenario: </h2>
 
   {{scenario.1.child_event}}
 
 <h2> Parental response: </h2>
-  <form id="p_choices">
-    <input id="radiob" type="radio"> {{scenario.1.choiceA}} <br>
-    <input type="radio"> {{scenario.1.choiceB}} <br>
-    <input type="radio"> {{scenario.1.choiceC}} <br>
-    <input type="radio"> {{scenario.1.choiceD}}
+  <form id="p_choices" method="POST">
+    <input name="p_answer" type="radio" /> {{scenario.1.choiceA}} <br>
+    <input name="p_answer" type="radio" /> {{scenario.1.choiceB}} <br>
+    <input name="p_answer" type="radio" /> {{scenario.1.choiceC}} <br>
+    <input name="p_answer" type="radio" /> {{scenario.1.choiceD}} <br>
+    <input type = "submit" value="Submit">
   </form>
 
 <div id="all_scores"> <h2> Scores:  </h2>
