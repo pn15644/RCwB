@@ -1,20 +1,20 @@
-<h2 id="scenario"> Scenario: </h2>
+<h2> Scenario: </h2>
 
-  {{scenario.1.child_event}}
+  <p id="scenario"> </p>
 
 <h2> Parental response: </h2>
-  <form id="p_choices" method="POST">
-    <input name="p_answer" type="radio" /> {{scenario.1.choiceA}} <br>
-    <input name="p_answer" type="radio" /> {{scenario.1.choiceB}} <br>
-    <input name="p_answer" type="radio" /> {{scenario.1.choiceC}} <br>
-    <input name="p_answer" type="radio" /> {{scenario.1.choiceD}} <br>
-    <input type = "submit" value="Submit">
-  </form>
+<form>
+  <ul id="p_choices"> </ul>
+  <input id="s_button" type = "submit" value="Submit">
+  <p id="r_button"> </p>
+</form>
 
 <div id="all_scores"> <h2> Scores:  </h2>
   <div id="p_scores"> <h3>Parental scores:</h3>
-    <p>Control: </p>
-    <p>Support: </p>
+    Control:
+    <p id="control"> </p>
+    Support:
+    <p id="support"> </p>
   </div>
 
   <div id="c_scores"> <h3>Child's outcome scores:</h3>
